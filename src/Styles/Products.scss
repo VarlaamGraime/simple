@@ -1,0 +1,35 @@
+@import 'Header';
+@import 'Main';
+ 
+.products__column{
+    margin-top: 90px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.name{
+    @include font-roboto;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #666666;
+}
+
+.edition{
+    @include font-roboto;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #B5B5BD;
+}
+
+.button-more{
+    @include font-roboto;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #7875FE;
+    border: none;
+    background: none;
+    cursor: pointer;
+}

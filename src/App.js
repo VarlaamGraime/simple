@@ -1,6 +1,7 @@
 import About from "./Components/About";
 import Header from "./Components/Header";
 import Main from "./Components/Main";
+import Products from "./Components/Products";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       <Main/>
       <About/>
+      <Products/>
     </div>
   );
 }

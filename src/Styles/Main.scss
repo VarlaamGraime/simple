@@ -1,7 +1,8 @@
+@import 'Header';
 
  //Mixin
 
- @mixin button{
+ @mixin button-mixin{
     width: 255px;
     height: 70px;
 
@@ -13,9 +14,7 @@
     gap: 6px;
     background-color: transparent;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    @include font-roboto;
     font-size: 20px;
     line-height: 23px;
     border: 1px solid #7875FE;
@@ -39,29 +38,29 @@
     height: 760px;
 }
 
-.title-main__column{
+.title-main-wrap{
     margin-left: 265px;
     margin-top: 210px;
     width: 445px;
 }
 
 .title-main__title{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+    @include font-roboto;
     font-size: 60px;
     line-height: 100%;
     color: #4C5866;
 }
-.title-main__subtitle{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+.subtitle{
+    @include font-roboto;
     font-size: 18px;
     line-height: 150%;
     color: #85859B;
 
 }
-.title-main__button{
-    @include button
+
+.subtitle-text_long{
+    width: 350px;
+}
+.button{
+    @include button-mixin
 }
