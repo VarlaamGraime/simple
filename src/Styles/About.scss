@@ -1,0 +1,31 @@
+@import 'Header';
+
+.about{
+    height: 100%;
+    height: 965px;
+
+    width: 100%;
+    background: #EBEBEB;
+}
+
+.about__header{
+    position: relative;
+    top: 100px
+}
+.about__row{
+    @include flex-row;
+    justify-content: center;
+}
+
+.about__column{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.about__border{
+    width: 350px;
+    height: 1px;
+
+    background: #C0C0C0;
+}   

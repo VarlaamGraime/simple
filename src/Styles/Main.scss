@@ -1,10 +1,67 @@
 
-.main-page__image{
+ //Mixin
+
+ @mixin button{
+    width: 255px;
+    height: 70px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 6px;
+    background-color: transparent;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    border: 1px solid #7875FE;
+    
+    color: #7875FE;
+    cursor: pointer;
+}
+
+
+//
+
+.main-page{
+    width: 100%;
+    height: 754px;
 }
 
 .main-page__image_position{
     position: absolute;
     bottom: 0;
-    right: 400px;
-    height: 800px;
+    right: 300px;
+    height: 760px;
+}
+
+.title-main__column{
+    margin-left: 265px;
+    margin-top: 210px;
+    width: 445px;
+}
+
+.title-main__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    color: #4C5866;
+}
+.title-main__subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #85859B;
+
+}
+.title-main__button{
+    @include button
 }

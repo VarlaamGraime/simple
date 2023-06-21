@@ -1,3 +1,4 @@
+import About from "./Components/About";
 import Header from "./Components/Header";
 import Main from "./Components/Main";
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Header/>
       <Main/>
+      <About/>
     </div>
   );
 }
