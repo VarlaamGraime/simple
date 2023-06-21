@@ -1,4 +1,5 @@
 @import 'Header';
+@import 'Main';
 
 .about{
     height: 100%;
@@ -8,24 +9,77 @@
     background: #EBEBEB;
 }
 
-.about__header{
+.about-header{
     position: relative;
     top: 100px
 }
-.about__row{
+.row-center{
     @include flex-row;
     justify-content: center;
 }
 
-.about__column{
+.about-wrap{
     margin-left: 15px;
     margin-right: 15px;
 }
 
+.items-about-row{
+    @include flex-row;
+
+}
 
 .about__border{
     width: 350px;
     height: 1px;
-
     background: #C0C0C0;
 }   
+
+.item-about-pict-position{
+    margin-top: 19px;
+}
+
+.item-about{
+    margin-left: 30px;
+    margin-top: 37px;
+}
+
+.item-about__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #666666;
+
+}
+.item-about__subtitle-width{
+    width: 160px;
+}
+
+.item-main{
+    margin-top: 150px;
+}
+
+
+.title-text{
+    @include font-roboto;
+    font-size: 40px;
+    line-height: 100%;  
+
+    width: 350px;
+    color: #666666;
+}
+.subtitle-text{
+    @include font-roboto;
+    font-size: 18px;
+    line-height: 170%;
+
+    color: #85859B;
+}
+
+
+
+.subtitle-text_short{
+    width: 255px;
+}
+
