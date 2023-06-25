@@ -1,6 +1,24 @@
+@import 'Header';
+@import 'About';
+
+
 .partners{
     height: 100%;
     width: 100%;
-    height: 645px;
-    background-color: ;
+    height: 315px;
+    background: #EBEBEB;
 }
+
+.block-partners{
+    width: 255px;
+    height: 135px;
+    border: 1px solid #C4C4C4;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+.margin-block-partners{
+    margin: 90px 15px;
+}
+ 
