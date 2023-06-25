@@ -5,6 +5,11 @@ p {
     margin: 5px;
   }
 
+.products-page{
+    height: 604px;
+
+}
+
 .products__column{
     margin-top: 90px;
     margin-left: 15px;
@@ -37,3 +42,40 @@ p {
     background: none;
     cursor: pointer;
 }
+
+.image-container{
+    position: relative;
+}
+
+.background-image{
+    z-index: 1;
+}
+.foreground-image{
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.position-pack{
+    left: 0;
+}
+
+.position-bag{
+    left: 15px;
+    bottom: 5px;
+}
+
+.position-case{
+    left: 14px;
+    bottom: 5px;
+}
+.position-other-prod{
+    left: 5px;
+    bottom: 5px;
+}
+
+.position-other-prod2{
+    left: 90px;
+    bottom: 5px;
+}
+ 

@@ -1,6 +1,7 @@
 import About from "./Components/About";
 import Header from "./Components/Header";
 import Main from "./Components/Main";
+import Partners from "./Components/Partners";
 import Products from "./Components/Products";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Main/>
       <About/>
       <Products/>
+      <Partners/>
     </div>
   );
 }
